@@ -1,0 +1,36 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  min-width: 240px;
+  border: 1px solid #cccccc;
+  border-radius: 1rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+.product-image {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.sold {
+  color: gray;
+  width: 100%;
+}
+
+.price {
+  color: red;
+  font-weight: 700;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .product {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+}

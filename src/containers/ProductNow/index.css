@@ -1,0 +1,40 @@
+.product-now {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image {
+  margin-bottom: 1rem;
+  min-width: 320px;
+}
+
+.product-now:first-child {
+  background-color: black;
+}
+
+.description {
+  color: white;
+  width: 130px;
+}
+
+.wrapper-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+.price {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-item {
+  display: flex;
+}
